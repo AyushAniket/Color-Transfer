@@ -12,3 +12,6 @@ Implementation of https://www.researchgate.net/publication/220183710_Transferrin
 * Swatches.py 
   * Transfers the color by first selecting swatches(by user - as two opposite diagonal points) on color and corresponding greyscale images.
   * After performing golbal image matching on the selected swatch area , color is distributed by texture synthesis throught the greyscale image.
+  ![Color_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/source_swatches.jpg?raw=true) + 
+  ![Grey_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/target_swatches.png?raw=true) =
+  ![Result_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/result_swatches.jpg?raw=true)
