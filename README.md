@@ -11,7 +11,17 @@ Implementation of https://www.researchgate.net/publication/220183710_Transferrin
  
 * Swatches.py 
   * Transfers the color by first selecting swatches(by user - as two opposite diagonal points) on color and corresponding greyscale images.
-  * After performing golbal image matching on the selected swatch area , color is distributed by texture synthesis throught the greyscale image.
+  * After performing global image matching on the selected swatch area , color is distributed by texture synthesis throught the greyscale image.
   ![Color_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/source_swatch.png?raw=true) + 
   ![Grey_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/target_swatch.png?raw=true) =
   ![Result_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/result_swatches.png?raw=true)
+
+# Color-Quantization
+Implementation of https://www.cse.iitd.ac.in/~pkalra/col783/assignment1/p297-heckbert.pdf for quantization of colored images.
+
+* Popularity_algorithm.py
+  * Selects top K colors out of all the distinct color.
+  * Create a colormap of K popular colors and using K_D tree Algorithm for color mapping.
+
+* Median_cut.py
+  * The color space is split into K cubes and mean of each cube is the Kth representative in the colormap.
