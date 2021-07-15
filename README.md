@@ -5,7 +5,9 @@ Implementation of https://www.researchgate.net/publication/220183710_Transferrin
 
 * Global_matching.py 
   * Implements the Global Image Matching algorithm as given in the paper.
-  ![alt text](https://github.com/AyushAniket/Color-Transfer/blob/master/color.jpg?raw=true)
+  ![Color_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/color_global_2.jpg?raw=true) + 
+  ![Grey_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/gray_global_2.jpg?raw=true) =
+  ![Result_Image](https://github.com/AyushAniket/Color-Transfer/blob/master/result_global_2.png?raw=true)
  
 * Swatches.py 
   * Transfers the color by first selecting swatches(by user - as two opposite diagonal points) on color and corresponding greyscale images.
